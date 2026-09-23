@@ -111,35 +111,6 @@ EmoSpot provides strictly role-gated experiences built with **ServiceNow enterpr
 
 ---
 
-## ⚡ Golden Demo Flow (2–3 Minutes for Judges)
-
-The application includes a persistent top **Demo Mode Banner** with instant 1-click role switching and preloaded state:
-
-1. **Explore Landing Page (`http://localhost:5173/`):**
-   - Review hero tagline, floating UI signal cards, and challenge context statistics.
-2. **Switch to Student Demo (Mahathi):**
-   - Click **"Student Demo (Mahathi)"** in the top bar to enter the Student Dashboard.
-3. **Submit Daily Check-In:**
-   - Click **"Daily Check-In"** and complete the 5-step reflection:
-     - Mood: *Low*
-     - Affecting factors: *Academic pressure* + *Sleep difficulty*
-     - Recent shift: *Noticeably harder over past 1–2 weeks*
-     - Support preference: *“Yes, I’d like someone to reach out”*
-     - Confirm consent & submit.
-4. **Inspect Supportive Result:**
-   - Observe the supportive, non-clinical summary (*“Support may be helpful right now”*).
-5. **Switch to Staff Demo (Dr. Aris Thorne):**
-   - Click **"Staff Demo (Dr. Aris)"** in the top banner.
-   - The Staff Dashboard reactively reflects Mahathi's new check-in at the top of **"Students Needing Follow-Up"**.
-6. **Open Mahathi's Case File & Outreach:**
-   - Click on Mahathi $\rightarrow$ inspect the *Case Overview* and *Explainable Signal Engine*.
-   - Click **"Reach Out"** $\rightarrow$ select the AI-assisted compassionate template $\rightarrow$ leave *Attach provisional appointment slot* checked $\rightarrow$ click **"Send Outreach & Update Journey"**.
-7. **Verify End-to-End Synchronization:**
-   - Switch back to **"Student Demo (Mahathi)"** $\rightarrow$ open **"My Support Journey"**.
-   - Stage 4 (*Staff Assigned & Outreach Sent*) and Stage 5 (*Appointment Scheduled*) are now marked completed!
-
----
-
 ## 🗺️ Complete 31-Page Website Architecture
 
 ```
@@ -226,20 +197,6 @@ Visit **`http://localhost:5173/`** in your browser.
 npm run build
 ```
 
----
-
-## 👥 Meet the FANTASTIC_6 Team
-
-| Specialist | Role & Contribution | Focus Area |
-| :--- | :--- | :--- |
-| **Mahathi M.** | Lead Full-Stack Architect & Product Designer | React, Scalable Architecture, State Sync |
-| **Aravind K.** | Early Warning Engine & Signal Modeling Lead | Deterministic Rule Logic & Time-Series Shifts |
-| **Sanya R.** | Student Wellbeing UX & Accessibility Specialist | MindShift Micro-interactions & WCAG AAA |
-| **Devansh T.** | Enterprise Platform & Security Engineer | Role-Based Access Control & FERPA Tier 2 |
-| **Kavya S.** | Campus Services & Multi-Department Coordinator | 12-Department Routing & Staff Outreach |
-| **Nikhil P.** | Rapid Prototyping & Recharts Analytics Engineer | Telemetry Visualizations & Component Polish |
-
----
 
 <p align="center">
   Developed with ❤️ by <strong>FANTASTIC_6</strong> for university student wellbeing.<br>
